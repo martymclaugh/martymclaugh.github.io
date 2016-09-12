@@ -103,3 +103,21 @@ width: auto%;
   margin-bottom: -20px;
   width: 10%;
 }
+
+@media (max-width: 800px) {
+  .hovereffect {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+  }
+}
+
+@media (max-width: 800px) {
+  .style-text {
+    font-size: 18px;
+  }
+}
