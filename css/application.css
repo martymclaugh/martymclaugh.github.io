@@ -120,9 +120,19 @@ width: auto%;
 .download-resume {
   margin-bottom: 20px;
 }
-3
+
+.overlay {
+  width: inherit;
+}
+
 @media (max-width: 800px) {
   .style-text {
     font-size: 18px;
+  }
+  .overlay {
+    display: none;
+  }
+  .hovereffect {
+    display: none;
   }
 }
