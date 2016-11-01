@@ -118,11 +118,26 @@
   .style-text {
     font-size: 1.5vw;
   }
- h2 {
+  a.info {
+    margin-bottom: -20%;
+  }
+  h2 {
     font-size: 5vw;
   }
   #contact {
     clear: both;
+  }
+  .download-section {
+    background: none;
+  }
+  #projects{
+    height: auto;
+    width: 100%;
+    padding: 50px 0;
+    color: white;
+    background: url(../img/small-browser.jpg ) no-repeat center center scroll;
+    background-color: black;
+    background-size: cover;
   }
 }
 
