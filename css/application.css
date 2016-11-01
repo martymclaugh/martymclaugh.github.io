@@ -1,6 +1,7 @@
 .hovereffect {
   width: 100%;
   height: 100%;
+  margin: 5px;
   float: left;
   overflow: hidden;
   position: relative;
@@ -38,7 +39,7 @@
   text-align: center;
   position: relative;
   font-size: 17px;
-  padding: 10px;
+  padding: 5px;
   background: rgba(0, 0, 0, 0.6);
 }
 
@@ -88,12 +89,11 @@
 
 .hovereffect {
   height:400px;
-  width: 33%;
+  width: 32%;
   height: auto;
 }
 .img-responsive {
-padding: 3%;
-width: auto%;
+  width: auto;
 }
 
 .projects-section {
@@ -105,34 +105,27 @@ width: auto%;
   width: 10%;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1050px) {
   .hovereffect {
-    width: 100%;
-    height: 100%;
-    float: left;
+    width: 60%;
+    margin:0 0 10% 20%;
+    height: auto;
     overflow: hidden;
     position: relative;
     text-align: center;
     cursor: default;
   }
+  .style-text {
+    font-size: 1.5vw;
+  }
+ h2 {
+    font-size: 5vw;
+  }
+  #contact {
+    clear: both;
+  }
 }
 
 .download-resume {
   margin-bottom: 20px;
-}
-
-.overlay {
-  width: inherit;
-}
-
-@media (max-width: 800px) {
-  .style-text {
-    font-size: 18px;
-  }
-  .overlay {
-    display: none;
-  }
-  .hovereffect {
-    display: none;
-  }
 }
