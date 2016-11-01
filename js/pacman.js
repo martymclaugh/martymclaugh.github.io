@@ -25,8 +25,8 @@ function initPacman() {
 	canvas.setAttribute('width', '550');
 	canvas.setAttribute('height', '550');
 	if (canvas.getContext) {
-		PACMAN_CANVAS_CONTEXT = canvas.getContext('2d');
-	}
+`		PACMAN_CANVAS_CONTEXT = canvas.getContext('2d');
+`	}
 }
 function resetPacman() {
 	stopPacman();
@@ -211,14 +211,14 @@ function drawPacman() {
 
 	var ctx = getPacmanCanevasContext();
 
-	ctx.fillStyle = "red";
+	ctx.fillStyle = "yellow";
 	ctx.beginPath();
 
 	var startAngle = 0;
 	var endAngle = 2 * Math.PI;
 	var lineToX = PACMAN_POSITION_X;
 	var lineToY = PACMAN_POSITION_Y;
-	if (PACMAN_DIRECTION === 1) { 
+	if (PACMAN_DIRECTION === 1) {
 		startAngle = (0.35 - (PACMAN_MOUNTH_STATE * 0.05)) * Math.PI;
 		endAngle = (1.65 + (PACMAN_MOUNTH_STATE * 0.05)) * Math.PI;
 		lineToX -= 8;
