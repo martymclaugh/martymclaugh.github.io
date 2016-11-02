@@ -25,8 +25,8 @@ function initPacman() {
 	canvas.setAttribute('width', '550');
 	canvas.setAttribute('height', '550');
 	if (canvas.getContext) {
-`		PACMAN_CANVAS_CONTEXT = canvas.getContext('2d');
-`	}
+		PACMAN_CANVAS_CONTEXT = canvas.getContext('2d');
+	}
 }
 function resetPacman() {
 	stopPacman();
